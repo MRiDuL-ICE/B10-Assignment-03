@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0bb3de1b7.js" crossorigin="anonymous"></script>
+    <style>
+        .manrope-normal {
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                    fontFamily: {
+                        'manrope': ['Manrope', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="manrope-normal bg-gray-100">
+
+    <header class="pt-5 md:pt-10">
+        <nav class="items-center">
+            <div class="navbar">
+                <div class="navbar-start text-center justify-center align-middle">
+                    <a class="btn btn-ghost text-4xl font-bold hover:bg-white text-center">
+                        <i
+                            class="fa-solid fa-arrow-right  py-1.5 px-2 rounded-full bg-[#ABEF5F]  -rotate-45"></i>Rinterio</a>
+                </div>
+                <div class="navbar-center hidden md:flex text-center justify-center align-middle">
+                    <ul class="menu menu-horizontal px-1 text-lg text-center">
+                        <li><a class="text-gray-500 hover:text-black">Home</a></li>
+                        <li><a class="text-gray-500 hover:text-black">Services</a></li>
+                        <li><a class="text-gray-500 hover:text-black">Portfolio</a></li>
+                        <li><a class="text-gray-500 hover:text-black">Blogs</a></li>
+                        <li><a class="text-gray-500 hover:text-black">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <ul class="menu menu-horizontal px-1 text-lg text-center">
+                        <li class="invisible md:visible"><i
+                                class="fa-solid fa-magnifying-glass rounded-full bg-[#FFFFFF] py-3.5 px-4 mr-3 "></i>
+                        </li>
+                        <li class="invisible md:visible"><i
+                                class="fa-solid fa-cart-shopping rounded-full bg-[#FFFFFF] py-3.5 px-4 mr-3"></i></li>
+                    </ul>
+
+                    <button class="btn font-bold text-lg invisible md:visible md:h-16 rounded-full bg-[#ABEF5F]">Book
+                        Consult<i class="fa-solid fa-arrow-right rounded-full bg-black p-2 -rotate-45"
+                            style="color: #ffff;"></i></button>
+                    <ul class="menu menu-horizontal px-1 text-lg text-center">
+                        <li class="visible md:invisible"><i
+                                class="fa-solid fa-bars fa-xl rounded-full bg-[#FFFFFF] py-7 px-4"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="items-start">
+            <div class="lg md:w-4/6 md:mt-5 md:mx-auto">
+                <img class="md:w-3/6 w-2/3 mx-auto" src="/assets/banner.png" alt="">
+            </div>
+            <div class="w-5/6 mx-auto md:mx-auto">
+                <h1 class="md:text-7xl text-4xl font-black pt-5 md:w-5/6 w-96 mx-auto font-black text-center">A barn house of this design has a
+                    striking appearance</h1>
+                <p class="w-96 md:w-5/6 md:mx-auto md:mt-5 pt-5 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                    weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <div class="md:w-2/6 flex md:mt-6 pt-5 justify-center md:mx-auto  md:flex md:justify-center">
+                    <button class="btn  font-bold w-96 place-content-center mx-auto text-2xl h-16 md:h-16 rounded-full bg-[#ABEF5F] ">View Details<i
+                    class="fa-solid fa-arrow-right justify-center rounded-full bg-black p-2 -rotate-45"
+                    style="color: #ffff;"></i></button>
+                </div>
+            </div>
+    </header>
+
+    <main>
+        <section class="md:w-5/6 w-96 flex  justify-center flex-col mt-9 mx-auto">
+                <button class="btn font-bold text-lg mx-auto md:w-2/6 w-3/6 md:h-16 rounded-full bg-[#ffff]"><i class="fa-solid fa-arrow-right rounded-full  p-2"
+                    style="color: #000;"> About Us</i></button>
+            <div>
+                <h1 class="md:text-7xl text-3xl mt-5 font-extrabold text-center">We design thoughtful, liveable spaces</h1>
+                <p class="text-lg text-center mt-5">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
