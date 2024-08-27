@@ -14,6 +14,7 @@
     <style>
         .manrope-normal {
             font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
         }
     </style>
     <script>
@@ -99,7 +100,7 @@
                 </figure>
                 <button
                     class="btn font-bold md:text-sm text-lg md:mx-0 mx-auto md:w-3/12 w-3/6 md:h-11 rounded-full bg-[#ffff]"><i
-                        class="fa-solid fa-arrow-right rounded-full  p-2" style="color: #000;"> About Us</i></button>
+                        class="fa-solid fa-arrow-right rounded-full  p-2" style="color: #000;"></i> About Us</button>
                 <div>
                     <h1 class="md:text-5xl text-3xl mt-5 font-extrabold text-center md:text-start">We design thoughtful,
                         liveable spaces</h1>
@@ -136,8 +137,8 @@
             <div class="flex  flex-col md:justify-center md:flex md:flex-col md:mx-auto">
                 <button
                     class="btn  font-bold md:text-sm normal-case text-sm md:w-60 mx-auto md:mx-auto  w-4/6 md:h-11 rounded-full bg-[#ffff]"><i
-                        class="fa-solid fa-arrow-right normal-case rounded-full  p-2" style="color: #000;"> How we
-                        works</i></button>
+                        class="fa-solid fa-arrow-right normal-case rounded-full  p-2" style="color: #000;"></i> How we
+                        works</button>
                 <div>
                     <h1 class="md:text-5xl text-3xl md:mt-10 mt-5 font-extrabold text-center">Our Works Process</h1>
                     <p class="text-lg text-center mt-5 md:mt-10">Our work process is a collaborative, iterative approach
@@ -195,8 +196,8 @@
                 <div class="flex  flex-col md:justify-center md:flex md:flex-col md:mx-auto">
                     <button
                         class="btn  font-bold md:text-sm normal-case md:justify-center w-full text-sm md:w-96 mx-auto md:mx-auto  w-4/6 md:h-11 rounded-full bg-[#ffff]"><i
-                            class="fa-solid fa-arrow-right normal-case rounded-full  p-2" style="color: #000;"> Explore
-                            our Latest works</i></button>
+                            class="fa-solid fa-arrow-right normal-case rounded-full  p-2" style="color: #000;"></i> Explore
+                            our Latest works</button>
                     <div>
                         <h1 class="md:text-5xl md:mt-10 text-4xl mt-10  font-extrabold text-center">Our Latest Portfolio
                         </h1>
@@ -300,7 +301,7 @@
                 </div>
             </div>
         </section>
-        <section class="mt-10 md:w-full  bg-cover h-96">
+        <section class="mt-10 md:w-full  bg-cover">
             <div class="min-h-screen"
                 style="background-image: url(assets/bg.jpg);">
                 <div class="bg-opacity-10"></div>
@@ -308,7 +309,7 @@
                     <div class="flex  flex-col pt-20 md:justify-center md:flex md:flex-col md:mx-auto">
                         <button
                             class="btn  font-bold md:text-sm normal-case md:justify-center w-full text-sm md:w-96 mx-auto md:mx-auto  w-4/6 md:h-11 rounded-full bg-[#ABEF5F80]"><i
-                                class="fa-solid fa-arrow-right normal-case rounded-full  p-2" style="color: #000;"> Let’s Connect</i></button>
+                                class="fa-solid fa-arrow-right normal-case rounded-full  p-2" style="color: #000;"></i> Let’s Connect</button>
                         <div class="md:w-2/3 flex flex-col justify-center mx-auto">
                             <h1 class="md:text-5xl md:mt-10 text-4xl mt-10  font-extrabold text-center">Let’s Discuss Next Project
                             </h1>
@@ -327,7 +328,7 @@
                         <textarea class="textarea textarea-bordered col-span-2 h-96 rounded-3xl" placeholder="Write your message here"></textarea>
                         <div class="flex justify-center mx-auto w-full col-span-2 mt-5">
                             <button
-                            class="btn  font-bold md:text-sm flex md:mx-auto normal-case md:justify-center w-full text-sm md:w-full mx-auto md:mx-auto md:h-11 rounded-full bg-[#ABEF5F80]"> Let’s Connect <i
+                            class="btn  font-bold md:text-sm flex md:mx-auto normal-case md:justify-center w-full text-sm md:w-full mx-auto md:mx-auto md:h-11 rounded-full bg-[#ABEF5F80]"> Send Mail <i
                                 class="fa-solid fa-arrow-right normal-case rounded-full  p-2" style="color: #000;"></i></button>
                         </div>
                       </div>
@@ -336,9 +337,31 @@
         </section>
     </main>
 
-    <footer>
-
-    </footer>
+    <footer class="footer bg-neutral flex flex-col manrope-normal mx-auto bg-black text-neutral-content p-10">
+        <div class="md:w-full">
+            <div class="navbar-start w-full flex flex-col text-center mx-auto justify-center">
+                <button
+                class="btn  font-bold border-none md:text-4xl normal-case md:justify-center text-4xl md:w-96 mx-auto md:mx-auto  w-full md:h-11 rounded-full bg-black text-white"><i
+                    class="fa-solid fa-arrow-right  py-1.5 px-2 rounded-full bg-[#ABEF5F]  -rotate-45"> </i>Rinterio</button>
+                    <p class="md:w-2/4 w-5/6 pt-10 mx-auto text-[#737373]">Our work process is a collaborative, iterative approach that emphasizes open communication, research, and continuous refinement. We start by thoroughly understanding your goals and constraints, then ideate and prototype potential solutions. Through feedback and testing, we refine the design, ensuring it meets your needs and exceeds your expectations before finalizing the project.</p>
+            </div>
+            
+        </div>
+        <div class="flex mt-10 justify-between w-2/4 mx-auto flex-row">
+            <ul class="flex md:justify-between justify-center text-center gap-5 w-full flex-col md:flex-row">
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blogs</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="flex justify-center mx-auto mt-20">
+            <button
+            class="btn  font-bold w-96 place-content-center mx-auto text-2xl h-16 md:h-16 rounded-full bg-[#ABEF5F] ">Book Consult<i class="fa-solid fa-arrow-right justify-center rounded-full bg-black p-2 -rotate-45"
+                style="color: #ffff;"></i></button>
+        </div>
+      </footer>
 
 </body>
 
